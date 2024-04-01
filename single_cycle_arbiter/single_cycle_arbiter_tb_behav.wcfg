@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="single_cycle_arbiter_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="single_cycle_arbiter_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="30.873 ns"></ZoomStartTime>
+      <ZoomEndTime time="55.638 ns"></ZoomEndTime>
+      <Cursor1Time time="35.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="187"></NameColumnWidth>
+      <ValueColumnWidth column_width="336"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/single_cycle_arbiter_tb/dut/req_i" type="array">
+      <obj_property name="ElementShortName">req_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">req_i[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_arbiter_tb/dut/gnt_o" type="array">
+      <obj_property name="ElementShortName">gnt_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">gnt_o[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_arbiter_tb/dut/priority_q" type="array">
+      <obj_property name="ElementShortName">priority_q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">priority_q[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_arbiter_tb/dut/inv" type="array">
+      <obj_property name="ElementShortName">inv[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inv[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_arbiter_tb/dut/N" type="array">
+      <obj_property name="ElementShortName">N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>
